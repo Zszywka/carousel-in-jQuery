@@ -1,0 +1,44 @@
+.widthhigh {
+    width: 600px;
+    height: 350px;
+}
+#carousel {
+  @extend .widthhigh;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+#carousel ul {
+  width: 3000px;
+  list-style: none;
+  /* padding: 0; */
+}
+
+#carousel ul li {
+  list-style: none;
+  @extend .widthhigh;
+  display: inline;
+}
+
+/*
+.widthhigh{
+    width: 600px;
+    height: 400px;
+
+}
+#carousel{
+    @extend .widthhigh;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+#carousel ul {
+    width: 3000px;
+    padding: 0;
+}
+#carousel ul li {
+    list-style: none;
+    @extend .widthhigh;
+    display: inline;
+
+} */
