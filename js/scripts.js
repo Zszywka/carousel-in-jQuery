@@ -5,7 +5,7 @@ $(function() {
 
 
   function changeSlide() {
-    carouselList.animate({'marginLeft':-600}, 500, moveFirstSlide);
+    carouselList.animate({'marginLeft':-501}, 500, moveFirstSlide);
   };
 
 

@@ -17,3 +17,7 @@ width: 600px;
 height: 350px;
 display: inline;
 }
+
+br {
+  font-size: 60px;
+}
