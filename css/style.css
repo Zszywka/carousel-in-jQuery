@@ -21,3 +21,22 @@ display: inline;
 br {
   font-size: 60px;
 }
+
+
+.left {
+	position: absolute;
+	overflow: auto;
+  left: 600px;
+	top: 250px;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.right {
+	position: absolute;
+	overflow: auto;
+	right: 600px;
+	top: 255px;
+  font-size: 30px;
+  font-weight: bold;
+}

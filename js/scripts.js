@@ -8,7 +8,6 @@ $(function() {
     carouselList.animate({'marginLeft':-501}, 500, moveFirstSlide);
   };
 
-
   function moveFirstSlide() {
     var firstItem = carouselList.find('li:first');
     var lastItem = carouselList.find('li:last');
